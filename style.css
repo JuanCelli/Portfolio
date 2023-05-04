@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-container{
+    position: sticky;
+    top: -40px;
+
+}
+
+.nav-bar{
+    background-color: rgba(223, 223, 223, 0.979);
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-options ul{
+    list-style-type: none;
+    padding: 10px 10px;
+
+}
+
+.nav-options li{
+    display: inline;
+    padding: 0px 30px;
+}
+
+.nav-options a:hover{
+    color:black;
+
+}
+
+.nav-options a{
+    font-size: 25px;
+    color: #838383;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.nav-options{
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-bar .logo{
+    justify-self: flex-start;
+    align-content: center;
+    width: 50%;
+    padding: 0px 80px;
+    position: relative;
+    top: 8px;
+}
+
+.nav-bar img{
+    width: 60px;
+    height: auto;
+    justify-self: left;
+} 
+
+
+.main-container{
+    background-color: #646464 ;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: #dfdfdf;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#fotoCv{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.main .text-field {
+    width: 500px;
+    justify-self: right;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    padding: 200px 60px;
+}
+
+.main .img{
+    justify-self: start;
+}
+
+.footer-container{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.footer{
+    width: 60%;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(128, 128, 128);
+}
+
+.footer div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 200px;
+}
+
+.footer i{
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+
+.footer i:hover{
+    color: white;
+}
+
+.subir{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(175, 175, 175);
+    transition: 0.2s;
+}
+
+.subir:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.img-skills{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 20px;
+
+}
+
+.section-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#dfdfdf;
+}
+
+.section-container section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 200px 400px 250px;
+}
+.section-container section p{
+    padding: 0px 60px;
+}
+
+.section-container section .img-sobreMi{
+    padding: 0px 10px;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.sobre-mi-presentacion{
+    background-color:#646464;
+}
+
+.sobre-mi-educacion{
+    background-color:#A8A8A8 ;
+    color: #ffffff;
+}
+
+.sobre-mi-tiempoLibre{
+    background-color:#6B6B6B ;
+}
+.sobre-mi-aspiraciones{
+    background-color:#C2C2C2 ;
+    color: #636363;
+}
+
+.main-protectos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    width: 90%;
+    padding: 200px 60px;
+}
+
+.proyectos-carousel{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.img-proyectos{
+    padding: 0px 30px;
+    object-fit: cover;
+    width: 400px;
+    height: 700px;
+}
+
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+}
+.form-container form input{
+    width: 400px;
+}
+.form-container form textarea{
+    width: 1000px;
+}
+.form-container form button{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
