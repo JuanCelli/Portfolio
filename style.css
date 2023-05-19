@@ -119,7 +119,13 @@ html {
   padding: 5px 10px;
   transition: 0.2s;
 }
+.footer-container .footer h2 {
+  color: #ffffff;
+}
 .footer-container .footer i:hover {
+  color: #ffffff;
+}
+.footer-container .footer i:hover .contact-data a {
   color: #ffffff;
 }
 .footer-container .footer .contact-data {
@@ -227,6 +233,10 @@ html {
 .sobre-mi-aspiraciones {
   background-color: #C2C2C2;
   color: #000000;
+}
+
+.education li {
+  padding: 15px 0px;
 }
 
 .main-protectos {

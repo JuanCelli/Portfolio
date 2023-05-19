@@ -133,8 +133,16 @@ body{
             padding: 5px 10px;
             transition: 0.2s;
         }
+        h2{
+            color: $colorHover
+        }
         i:hover{
             color: $colorHover;
+            .contact-data{
+                a{
+                    color: $colorHover;
+                }
+            }
         }
         .contact-data{
             padding: 0px 10px;
@@ -237,6 +245,13 @@ body{
 }
 .sobre-mi-aspiraciones{
     @include sectionColor(#C2C2C2,$color5) 
+}
+
+.education{
+    li{
+        padding: 15px 0px;
+
+    }
 }
 
 .main-protectos{
